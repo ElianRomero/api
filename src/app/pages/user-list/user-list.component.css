@@ -1,0 +1,17 @@
+.user-list {
+    margin: 30px;
+
+    .user-item {
+        padding-left: 20px;
+        background-color: coral;
+        border-bottom: 2px solid black;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .user-item:hover {
+        background-color: lightcoral;
+    }
+}
